@@ -31,7 +31,6 @@ nameSet<-c(
   # MRONJ_Apex
    "MA1",
    "MA2",
-  #"MA3",
    "MA4",
    "MA5",
   # BMP2_Crest
@@ -42,7 +41,6 @@ nameSet<-c(
   # BMP2_Apex
    "BMP2_A1",
    "BMP2_A2",
-  #"BMP2_A3",
    "BMP2_A4",
    "BMP2_A5"
   )
@@ -69,7 +67,6 @@ TotalVolume<-c( # geometry data
   118*104*30.0, # MC4
   285*289*27.0, # MA1
   135*135*23.0, # MA2
- # 217*126*18, # MA3
   101*108*16.0, # MA4
   127*108*25.0, # MA5
   363*140*24.0, # BMP2_C1
@@ -78,7 +75,6 @@ TotalVolume<-c( # geometry data
   455*280*16.0, # BMP2_C4
   285*299*32.0, # BMP2_A1
   385*534*41.0, # BMP2_A2
-  # 209*200*18.0, # BMP2_A3
   135*81.4*27.0, # BMP2_A4
   132*117*27 # BMP2_A5
   )
