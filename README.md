@@ -19,3 +19,7 @@ Imaris-based Morphological Analysis of Osteocytes (IMAO) is a workflow to estima
 \-\-\- SampleN.ims.hoc<br>
 \-\- results\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Results folder<br>
 \-\-\- Osteocytes.Processes.Analysis.Summary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The results of each osteocyte, each sample, and Moran's index. <br>
+
+## Checks and deploys
+
+This repository uses no GitHub Actions (LabOnoM decision, 2026-10-13): it holds an analysis workflow with no automated checks, so re-run what a change affects by hand before merging and record the result in the pull request; nothing runs automatically.
